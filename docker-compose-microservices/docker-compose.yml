@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+
+logic:
+  image: registry.git.chalmers.se/courses/tme290/2022/group15/logic
+  network_mode: "host"
+  ipc: "host"
+  volumes:
+    - /tmp:/tmp
+  environment:
+  command: "/usr/bin/logic --cid=140 --freq=50 --xSpeed=0.03 --nPoint=2 --turnSpeed=0.05"
+
+cone-detection:
+  image: registry.git.chalmers.se/courses/tme290/2022/group15/cone-detection
+  network_mode: "host"
+  ipc: "host"
+  volumes:
+    - /tmp:/tmp
+  environment:
+  command: "/usr/bin/cone-detection --cid=140 --name=img.argb --width=1280 --height=720"

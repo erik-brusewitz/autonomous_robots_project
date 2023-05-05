@@ -1,0 +1,23 @@
+<annotation>
+  <folder>Dataset</folder>
+  <filename>IMG_NAME</filename>
+  <size>
+    <width>640</width>
+    <height>480</height>
+    <depth>1</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>kiwi-cart</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>XMIN</xmin>
+      <xmax>XMAX</xmax>
+      <ymin>YMIN</ymin>
+      <ymax>YMAX</ymax>
+    </bndbox>
+  </object>
+</annotation>

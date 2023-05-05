@@ -1,0 +1,9 @@
+cone detection + previewpoints (sends previewPoint (id:1173) (2 different stamps,
+1 for the close one and one for the far away one, send timestamps for both.
+Input: accesses the shared memory + 4 sensors from DistanceReading (id:1039)
+
+kiwi detection (sends objectPosition (id:1136)
+orange cone detection
+
+
+logic (brake if other kiwi is close in front, stop if its to the right)
